@@ -6,6 +6,8 @@ cache: yarn
 install:
     - yarn install
 
+before_script: cd React
+
 script:
     - yarn test
     - yarn run build
