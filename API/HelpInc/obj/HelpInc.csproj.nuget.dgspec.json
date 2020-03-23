@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabriel.frança\\Documents\\GitHub\\HelpIncProject\\API\\HelpInc\\HelpInc.csproj": {}
+    "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\HelpInc\\HelpInc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabriel.frança\\Documents\\GitHub\\HelpIncProject\\API\\HelpInc\\HelpInc.csproj": {
+    "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\HelpInc\\HelpInc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabriel.frança\\Documents\\GitHub\\HelpIncProject\\API\\HelpInc\\HelpInc.csproj",
+        "projectUniqueName": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\HelpInc\\HelpInc.csproj",
         "projectName": "HelpInc",
-        "projectPath": "C:\\Users\\gabriel.frança\\Documents\\GitHub\\HelpIncProject\\API\\HelpInc\\HelpInc.csproj",
-        "packagesPath": "C:\\Users\\gabriel.frança\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabriel.frança\\Documents\\GitHub\\HelpIncProject\\API\\HelpInc\\obj\\",
+        "projectPath": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\HelpInc\\HelpInc.csproj",
+        "packagesPath": "C:\\Users\\snyp_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\HelpInc\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\gabriel.frança\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\snyp_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\gabriel.frança\\Documents\\GitHub\\HelpIncProject\\API\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\gabriel.frança\\Documents\\GitHub\\HelpIncProject\\API\\Repository\\Repository.csproj"
+              "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Repository\\Repository.csproj"
               }
             }
           }
@@ -76,24 +73,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\gabriel.frança\\Documents\\GitHub\\HelpIncProject\\API\\Repository\\Repository.csproj": {
+    "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabriel.frança\\Documents\\GitHub\\HelpIncProject\\API\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\gabriel.frança\\Documents\\GitHub\\HelpIncProject\\API\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\gabriel.frança\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabriel.frança\\Documents\\GitHub\\HelpIncProject\\API\\Repository\\obj\\",
+        "projectPath": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\snyp_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Repository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\gabriel.frança\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\snyp_\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -145,7 +139,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
