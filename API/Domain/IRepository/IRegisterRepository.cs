@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Domain.Entity;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Domain.IRepository
 {
-    interface IRegisterRepository
+    public interface IRegisterRepository : IBaseRepository<RegisterUser>
     {
     }
 }

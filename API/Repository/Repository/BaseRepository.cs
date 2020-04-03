@@ -1,4 +1,5 @@
-﻿using Repository.Context;
+﻿using Domain.IRepository;
+using Repository.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;
