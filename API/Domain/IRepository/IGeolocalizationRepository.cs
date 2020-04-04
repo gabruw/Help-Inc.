@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Domain.Entity;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Domain.IRepository
 {
-    interface IGeolocalizationRepository_
+    public interface IGeolocalizationRepository : IBaseRepository<Geolocalization>
     {
     }
 }
