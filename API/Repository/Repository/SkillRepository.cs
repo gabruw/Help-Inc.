@@ -7,11 +7,12 @@ using System.Text;
 
 namespace Repository.Repository
 {
-    public class LoginRepository : BaseRepository<LoginUser>, ILoginRepository
+    public class SkillRepository : BaseRepository<Skill>, ISkillRepository
     {
-        public LoginRepository(HelpIncContext helpIncContext) : base(helpIncContext)
+        public SkillRepository(HelpIncContext helpIncContext) : base(helpIncContext)
         {
 
         }
+    {
     }
 }

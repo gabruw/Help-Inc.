@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Domain.IRepository
 {
-    public interface ILoginRepository : IBaseRepository<LoginUser>
+    public interface ICompanyRepository : IBaseRepository<Company>
     {
     }
 }

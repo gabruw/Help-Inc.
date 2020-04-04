@@ -7,9 +7,9 @@ using System.Text;
 
 namespace Repository.Repository
 {
-    public class LoginRepository : BaseRepository<LoginUser>, ILoginRepository
+    public class GroupRepository : BaseRepository<Group>, IGroupRepository
     {
-        public LoginRepository(HelpIncContext helpIncContext) : base(helpIncContext)
+        public GroupRepository(HelpIncContext helpIncContext) : base(helpIncContext)
         {
 
         }

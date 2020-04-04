@@ -7,9 +7,9 @@ using System.Text;
 
 namespace Repository.Repository
 {
-    public class LoginRepository : BaseRepository<LoginUser>, ILoginRepository
+    public class GeolocalizationRepository : BaseRepository<Geolocalization>, IGeolocalizationRepository
     {
-        public LoginRepository(HelpIncContext helpIncContext) : base(helpIncContext)
+        public GeolocalizationRepository(HelpIncContext helpIncContext) : base(helpIncContext)
         {
 
         }
