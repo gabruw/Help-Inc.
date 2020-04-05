@@ -1,0 +1,4 @@
+.ui.button:hover {
+    background-color: #6FCFDB !important;
+    transition: 0.1s !important;
+}
