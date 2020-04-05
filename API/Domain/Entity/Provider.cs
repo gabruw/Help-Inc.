@@ -1,12 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Domain.Entity
 {
-    public class Provider : Default
+    public class Provider : User
     {
-        public IList<SkillLevel> Skills { get; set; }
-        public Group Group { get; set; }
+        public long IdGroup { get; set; }
+        public virtual Group Group { get; set; }
+        public virtual ICollection<SkillLevel> Skills { get; set; }
+
+        public virtual Group ProviderGroup { get; set; }
+
+        public override void Validate()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

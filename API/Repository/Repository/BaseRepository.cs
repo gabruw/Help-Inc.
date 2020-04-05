@@ -1,9 +1,7 @@
-﻿using Domain.IRepository;
+﻿using System.Linq;
 using Repository.Context;
-using System;
+using Domain.IRepository;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace Repository.Repository
 {

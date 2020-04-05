@@ -6,3 +6,12 @@ C:\Users\gabriel.frança\Documents\GitHub\HelpIncProject\API\Domain\obj\Debug\ne
 C:\Users\gabriel.frança\Documents\GitHub\HelpIncProject\API\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
 C:\Users\gabriel.frança\Documents\GitHub\HelpIncProject\API\Domain\obj\Debug\netcoreapp3.1\Domain.dll
 C:\Users\gabriel.frança\Documents\GitHub\HelpIncProject\API\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\snyp_\OneDrive\Documents\Github\HelpIncProject\API\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+C:\Users\snyp_\OneDrive\Documents\Github\HelpIncProject\API\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+C:\Users\snyp_\OneDrive\Documents\Github\HelpIncProject\API\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+C:\Users\snyp_\OneDrive\Documents\Github\HelpIncProject\API\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+C:\Users\snyp_\OneDrive\Documents\Github\HelpIncProject\API\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\snyp_\OneDrive\Documents\Github\HelpIncProject\API\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+C:\Users\snyp_\OneDrive\Documents\Github\HelpIncProject\API\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\snyp_\OneDrive\Documents\Github\HelpIncProject\API\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\snyp_\OneDrive\Documents\Github\HelpIncProject\API\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
