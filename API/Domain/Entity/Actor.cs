@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Domain.Entity
 {
@@ -8,11 +6,16 @@ namespace Domain.Entity
     {
         public long Id { get; set; }
         public long IdLogin { get; set; }
-        public virtual LoginUser ActorLoginUser { get; set; }
+        public virtual Login ActorLoginUser { get; set; }
         public long IdAddress { get; set; }
         public virtual Address ActorAddress { get; set; }
         public string Name { get; set; }
         public int Phone { get; set; }
         public string Picture { get; set; }
+
+        public override void Validate()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

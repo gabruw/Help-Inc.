@@ -1,17 +1,13 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Repository.Context;
+using Domain.IRepository;
+using Repository.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using Repository.Context;
 
 namespace HelpInc
 {
@@ -30,8 +26,23 @@ namespace HelpInc
             services.AddControllers();
 
             // DB Connection
-            var connectionString = Configuration.GetConnectionString("db_HelpInc");
-            services.AddDbContext<HelpIncContext>(option => option.UseLazyLoadingProxies().UseMySql(connectionString, migration => migration.MigrationsAssembly("Repository")));
+            services.AddDbContext<HelpIncContext>(option =>
+                option.UseLazyLoadingProxies().UseMySql(Configuration.GetConnectionString("db_HelpInc"), migration =>
+                    migration.MigrationsAssembly("Repository")));
+
+            // Identity
+            services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<HelpIncContext>().AddDefaultTokenProviders();
+
+            // Scope's
+            services.AddScoped<IAddressRepository, AddressRepository>();
+            services.AddScoped<ICompanyRepository, CompanyRepository>();
+            services.AddScoped<IConsumerRepository, ConsumerRepository>();
+            services.AddScoped<IGeolocalizationRepository, GeolocalizationRepository>();
+            services.AddScoped<IGroupRepository, GroupRepository>();
+            services.AddScoped<IGroupRoleRepository, GroupRoleRepository>();
+            services.AddScoped<IProviderRepository, ProviderRepository>();
+            services.AddScoped<ISkillRepository, SkillRepository>();
+            services.AddScoped<ISkillLevelRepository, SkillLevelRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
