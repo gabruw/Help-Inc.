@@ -7,12 +7,8 @@ import './styles.css';
 
 //#endregion
 
-const MainButton = ({ text, textColor = '#ffffff', backgroundColor = '#488991' }) => (
-    <Button
-        className={styles.mainButton}
-        content={text}
-        style={{ color: textColor, backgroundColor: backgroundColor }}
-    />
+const MainButton = ({ text, textColor = '#ffffff' }) => (
+    <Button className={styles.mainButton} content={text} style={{ color: textColor }}></Button>
 );
 
 export default MainButton;
