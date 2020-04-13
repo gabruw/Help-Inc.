@@ -1,5 +1,6 @@
 .mainButton {
     width: 120px;
     height: 45px;
-    border-bottom: 4px solid #6fcfdb !important;
+    background: linear-gradient(to bottom, #488991 75%, #6FCFDB 90%) !important;
+    border-radius: 0.28571429rem !important;
 }
