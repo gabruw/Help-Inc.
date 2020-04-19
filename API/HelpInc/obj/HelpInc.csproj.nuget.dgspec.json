@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\HelpInc\\HelpInc.csproj": {}
+    "C:\\node\\HelpIncProject\\API\\HelpInc\\HelpInc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Domain\\Domain.csproj": {
+    "C:\\node\\HelpIncProject\\API\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\node\\HelpIncProject\\API\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\snyp_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Domain\\obj\\",
+        "projectPath": "C:\\node\\HelpIncProject\\API\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\gabrielrigolon\\.nuget\\packages\\",
+        "outputPath": "C:\\node\\HelpIncProject\\API\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\snyp_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabrielrigolon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,17 +65,20 @@
         }
       }
     },
-    "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\HelpInc\\HelpInc.csproj": {
+    "C:\\node\\HelpIncProject\\API\\HelpInc\\HelpInc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\HelpInc\\HelpInc.csproj",
+        "projectUniqueName": "C:\\node\\HelpIncProject\\API\\HelpInc\\HelpInc.csproj",
         "projectName": "HelpInc",
-        "projectPath": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\HelpInc\\HelpInc.csproj",
-        "packagesPath": "C:\\Users\\snyp_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\HelpInc\\obj\\",
+        "projectPath": "C:\\node\\HelpIncProject\\API\\HelpInc\\HelpInc.csproj",
+        "packagesPath": "C:\\Users\\gabrielrigolon\\.nuget\\packages\\",
+        "outputPath": "C:\\node\\HelpIncProject\\API\\HelpInc\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\snyp_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabrielrigolon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,8 +91,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Repository\\Repository.csproj"
+              "C:\\node\\HelpIncProject\\API\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\node\\HelpIncProject\\API\\Repository\\Repository.csproj"
               }
             }
           }
@@ -137,17 +143,20 @@
         }
       }
     },
-    "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Repository\\Repository.csproj": {
+    "C:\\node\\HelpIncProject\\API\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\node\\HelpIncProject\\API\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\snyp_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Repository\\obj\\",
+        "projectPath": "C:\\node\\HelpIncProject\\API\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\gabrielrigolon\\.nuget\\packages\\",
+        "outputPath": "C:\\node\\HelpIncProject\\API\\Repository\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\snyp_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabrielrigolon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -160,8 +169,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Domain\\Domain.csproj"
+              "C:\\node\\HelpIncProject\\API\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\node\\HelpIncProject\\API\\Domain\\Domain.csproj"
               }
             }
           }
