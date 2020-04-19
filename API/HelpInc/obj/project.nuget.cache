@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "8FStfLu4yyYcNrT/lAZn6cIh0rESZaF1VuruxZh/EnbZaD1E0f9rh7QAqtOV33tGSkvPCkqNFLo8z+GDsa+ajg==",
+=======
+  "dgSpecHash": "yV6S0gXwO8WeQMj0oVs/hzpNzY+EgwddG6nQ0S/oMfg4B9SfORfXevwV9IG/OOhydS4AJ1LH3XnLQg/LThPO2A==",
+>>>>>>> dee5d4ef2ea89cb2791b15e3af528a1bf18871ca
   "success": true,
   "projectFilePath": "C:\\node\\HelpIncProject\\API\\HelpInc\\HelpInc.csproj",
   "expectedPackageFiles": [
