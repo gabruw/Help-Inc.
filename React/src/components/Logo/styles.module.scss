@@ -1,0 +1,70 @@
+@import '../../assets/css/font.scss';
+
+@mixin rectangle {
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    position: absolute;
+    border: 1px solid #ffffff;
+}
+
+@mixin rectangle-transition {
+    transition: transform 2s ease-in-out;
+    -webkit-transition: -webkit-transform 2s ease-in-out;
+}
+
+// Rotate
+.blueRectangleRotate {
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.grayRectangleRotate {
+    transform: rotate(-315deg);
+    -ms-transform: rotate(-315deg);
+    -webkit-transform: rotate(-315deg);
+}
+
+.grayRectangleDefaultRotate {
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+// Elements
+.logo {
+    width: 400px;
+    height: 120px;
+}
+
+.blueRectangle {
+    @include rectangle;
+    @include rectangle-transition;
+    background-color: $blue;
+}
+
+.grayRectangle {
+    @include rectangle;
+    @include rectangle-transition;
+    background-color: $grey;
+}
+
+.hammer {
+    z-index: 99;
+    width: 35px;
+    height: 35px;
+    margin-top: 12px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.name {
+    color: $grey;
+    font-size: 30px;
+    margin-top: 21px;
+    margin-left: 65px;
+    position: absolute;
+    text-transform: uppercase;
+    font-family: HelveticaNeueLTPro75;
+}
