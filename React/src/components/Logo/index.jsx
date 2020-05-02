@@ -1,27 +1,25 @@
 //#region Imports
 
+import { debounce } from 'lodash';
 import React, { Fragment, useState } from 'react';
 import { Link, withRouter } from 'react-router-dom';
 
-import { debounce } from 'lodash';
+import Sample from './sample';
 import { Grid, Transition } from 'semantic-ui-react';
 
-import IMAGES from '../../library/images';
 import styles from './styles.module.scss';
 
 //#endregion
 
 const Logo = () => {
-    const [ap, setAp] = useState(false);
-    const delayedApState = debounce(() => setAp(!ap), 2000);
+    const [rotate, setRotate] = useState(false);
+    const delayedRotateState = debounce(() => setRotate(!rotate), 2000);
 
     const onHover = () => {
-        delayedApState();
+        delayedRotateState();
     };
 
-    const blueRect = ap ? styles.blueRectangleRotate : '';
-    const grayRect = ap ? styles.grayRectangleRotate : styles.grayRectangleDefaultRotate;
-
+    const duration = rotate ? '4000' : '3000';
     return (
         <Fragment>
             <Grid style={{ height: '100px' }}>
@@ -29,14 +27,12 @@ const Logo = () => {
                     <Grid.Column widescreen={2} tablet={5} mobile={11}>
                         <Link to='/home'>
                             <div onMouseOut={() => onHover()}>
-                                <div className={[styles.blueRectangle, blueRect].join(' ')}></div>
-                                <div className={[styles.grayRectangle, grayRect].join(' ')}></div>
-                                <img className={styles.hammer} src={IMAGES.HAMMER} />
+                                <Sample canRotate={rotate} />
                             </div>
                         </Link>
 
-                        <Transition.Group animation={'fade right'} duration={ap ? '4000' : '3000'}>
-                            {ap && <span className={styles.name}>help inc.</span>}
+                        <Transition.Group animation={'fade right'} duration={duration}>
+                            {rotate && <span className={styles.name}>help inc.</span>}
                         </Transition.Group>
                     </Grid.Column>
                 </Grid.Row>
