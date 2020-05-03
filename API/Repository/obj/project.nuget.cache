@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "Bl5WEv7UkcSW9ZRhA6aB+nBCrPmuWcKE9FtNblllFpsOvZFzjc76dc3f1NqTwQin+MjhIivGayfqheAn0c0i2A==",
-=======
-  "dgSpecHash": "StCf6MQqXHi7krniraV4Z24ZTZD78mTtc3LnbRyfjEcUXrWTwvJAkzq4e2LUaGfP0HoWur++onjk41EJLau7nA==",
->>>>>>> dee5d4ef2ea89cb2791b15e3af528a1bf18871ca
+  "dgSpecHash": "kdy6+d4BlnLO6gp5O7xhUi7q8utYK5PwD/IwAIsCJLvmjPgiVaN32foL5kXYQ6e1F+dn9byj5TQCVBukCpnQpA==",
   "success": true,
   "projectFilePath": "C:\\node\\HelpIncProject\\API\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
@@ -123,5 +119,12 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\node\\HelpIncProject\\API\\Repository\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

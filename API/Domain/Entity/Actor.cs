@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Domain.DTO;
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.RegularExpressions;
 
 namespace Domain.Entity
 {
@@ -35,7 +37,43 @@ namespace Domain.Entity
 
         public override void Validate()
         {
-            throw new NotImplementedException();
+            ClearValidationMessage();
+
+            if (Name.Length < 1)
+            {
+                AddError("O campo nome não foi informado.");
+            }
+            
+            if (Name.Length > 0 && Name.Length < 240)
+            {
+                AddError("O campo nome não foi informado.");
+            }
+
+            Match match = Regex.Match(Phone.ToString(), @"^(\(?\d{2}\)?\s)?(\d{4,5}\-\d{4})$", RegexOptions.IgnoreCase);
+            if (!match.Success)
+            {
+                AddError("O telefone apresenta um formato inválido");
+            }
+
+            if (Phone.ToString().Length < 1)
+            {
+                AddError("O campo telefone não foi informado.");
+            }
+
+            if (Phone.ToString().Length > 0 && Phone.ToString().Length < 11)
+            {
+                AddError("O campo telefone não possui o número de caracteres esperados.");
+            }
+
+            if (Picture.Length < 1)
+            {
+                AddError("O campo Imagem não foi informado.");
+            }
+
+            if (Picture.Length > 160)
+            {
+                AddError("O campo Imagem possui mais caracteres do que o esperado.");
+            }
         }
     }
 }

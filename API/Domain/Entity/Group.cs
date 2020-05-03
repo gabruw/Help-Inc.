@@ -32,7 +32,32 @@ namespace Domain.Entity
 
         public override void Validate()
         {
-            throw new NotImplementedException();
+            ClearValidationMessage();
+
+            if (Name.Length < 1)
+            {
+                AddError("O campo nome não foi informado.");
+            }
+
+            if (Name.Length > 0 && Name.Length < 240)
+            {
+                AddError("O campo nome não foi informado.");
+            }
+
+            if (Description.Length < 1)
+            {
+                AddError("O campo descrição não foi informado.");
+            }
+
+            if (Description.Length > 0 && Description.Length < 240)
+            {
+                AddError("O campo descrição não possui o número de caracteres esperados");
+            }
+
+            if (Picture.Length > 160)
+            {
+                AddError("O campo Imagem possui mais caracteres do que o esperado.");
+            }
         }
     }
 }

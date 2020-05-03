@@ -13,7 +13,17 @@ namespace Domain.Entity
 
         public override void Validate()
         {
-            throw new System.NotImplementedException();
+            ClearValidationMessage();
+
+            if (Latitude.ToString().Length < 1)
+            {
+                AddError("O campo latitude não foi informado.");
+            }
+
+            if (Longitude.ToString().Length < 1)
+            {
+                AddError("O campo longitude não foi informado.");
+            }
         }
     }
 }

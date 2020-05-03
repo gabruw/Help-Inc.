@@ -8,7 +8,7 @@ namespace Domain.Entity
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public long Id { get; set; } 
+        public long Id { get; set; }
         public long IdProvider { get; set; }
 
         [ForeignKey("IdProvider")]
@@ -23,7 +23,17 @@ namespace Domain.Entity
 
         public override void Validate()
         {
-            throw new NotImplementedException();
+            ClearValidationMessage();
+
+            if (Role.ToString().Length < 1)
+            {
+                AddError("O campo função não foi informado.");
+            }
+
+            if (Role.ToString().Length > 0 && Role.ToString().Length < 8)
+            {
+                AddError("O campo função não foi informado.");
+            }
         }
     }
 }

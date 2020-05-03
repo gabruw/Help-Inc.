@@ -23,7 +23,17 @@ namespace Domain.Entity
 
         public override void Validate()
         {
-            throw new NotImplementedException();
+            ClearValidationMessage();
+
+            if (Level.ToString().Length < 1)
+            {
+                AddError("O campo nível não foi informado.");
+            }
+
+            if (Level.ToString().Length > 0 && Level.ToString().Length < 240)
+            {
+                AddError("O campo nível não possui o número de caracteres esperados");
+            }
         }
     }
 }
