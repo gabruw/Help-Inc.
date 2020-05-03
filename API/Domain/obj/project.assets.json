@@ -803,19 +803,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\snyp_\\.nuget\\packages\\": {}
+    "C:\\Users\\gabrielrigolon\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\node\\HelpIncProject\\API\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\snyp_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Domain\\obj\\",
+      "projectPath": "C:\\node\\HelpIncProject\\API\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\gabrielrigolon\\.nuget\\packages\\",
+      "outputPath": "C:\\node\\HelpIncProject\\API\\Domain\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\snyp_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gabrielrigolon\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -866,5 +870,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\node\\HelpIncProject\\API\\Domain\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

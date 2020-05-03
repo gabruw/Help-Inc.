@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Domain\\Domain.csproj": {}
+    "C:\\node\\HelpIncProject\\API\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Domain\\Domain.csproj": {
+    "C:\\node\\HelpIncProject\\API\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\node\\HelpIncProject\\API\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\snyp_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\snyp_\\OneDrive\\Documents\\Github\\HelpIncProject\\API\\Domain\\obj\\",
+        "projectPath": "C:\\node\\HelpIncProject\\API\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\gabrielrigolon\\.nuget\\packages\\",
+        "outputPath": "C:\\node\\HelpIncProject\\API\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\snyp_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabrielrigolon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
